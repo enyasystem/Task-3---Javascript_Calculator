@@ -26,3 +26,15 @@ if (action === 'add' ||
     console.log('operator key!')
 }
 
+//If the key's data-action is decimal then write . and so on for clear and equal to
+if (action === 'decimal') {
+ console.log('decimal key!')   
+}
+
+if (action === 'clear') {
+    console.log('clear')
+}
+
+if (action === 'calculate') {
+    console.log('equal key!')
+}
