@@ -7,11 +7,7 @@
     <title>Calculator</title>
 </head>
 <style>
-    .Calculator{
-        display: grid;
-    }
-
-    .grid{
+    .calculator-keys{
         display: grid;
         grid-template-columns: 100px 100px 100px;
         column-gap: 1px;
@@ -21,6 +17,10 @@
         text-align: justify;
         box-sizing: content-box;
         background-color: darks;
+    }
+
+    .grid{
+        
     }
 
     button {
@@ -37,7 +37,6 @@
         <div class="calculator-keys">...</div>
     </div>
         <div class="calculator-keys">
-            <div class="grid">
                 <button class="key-operator" data-action="add">+</button>
                 <button class="key-operator" data-action="subtract">-</button>
                 <button class="key-operator" data-action="divide">÷</button>
@@ -56,7 +55,6 @@
                 <button data-action="clear">AC</button>
                 <button class="equal-to-key" data-action="calculate">=</button>
             </div>
-        </div>
 </body>
 <script src="/main.js"></script>
 </html>
