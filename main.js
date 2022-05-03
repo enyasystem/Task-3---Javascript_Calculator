@@ -17,5 +17,12 @@ if (!action) {
     console.log('number key')
 }
 
-
+//If the key has a data-action... then do some mathematical operations
+if (action === 'add' ||
+    action === 'subtract' ||
+    action === 'multiply' ||
+    action === 'divide'
+) {
+    console.log('operator key!')
+}
 
