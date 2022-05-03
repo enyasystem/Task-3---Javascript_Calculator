@@ -38,3 +38,16 @@ if (action === 'clear') {
 if (action === 'calculate') {
     console.log('equal key!')
 }
+
+//Values to be gotten through textContent property and the clicked key and the .calculator-display respectively
+const display = document.querySelector('.calculator-display')
+
+keys.addEventListener('click', e => {
+    if (e.target.matches('button')) {
+        const key = e.target
+        const action = key.dataset.action
+        const keyContent = key.textContent
+        const displayedNum = display.textContent
+        //...
+    }
+})
