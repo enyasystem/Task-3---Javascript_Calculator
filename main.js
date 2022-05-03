@@ -51,3 +51,10 @@ keys.addEventListener('click', e => {
         //...
     }
 })
+
+//Replacing the 0 number that will be displayed when the calculator is powered on with the clicked key
+if (!action) {
+    if (displayedNum === '0') {
+        display.textContent = keyContent
+    }    
+}
